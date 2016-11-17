@@ -1,0 +1,61 @@
+/* Base Application Styles */
+body {
+  background: #bfc6c5;
+}
+
+/* BODY */
+
+.bodysheet {
+  width: 85%;
+  right: 0;
+  top: 5%;
+  bottom: 0;
+  left: 15%;
+}
+
+.pole{
+  background-color: #616161 !important;
+  position: relative;
+}
+
+/* LEVÉ MENU */
+
+.menuleftclass {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  background-color: #616161;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+
+.menupole {
+  width: 70% !important;
+  background-color: #616161 !important;
+  border-radius: 5px !important;
+  margin: 5% !important;
+  position: absolute !important;
+}
+
+.logo {
+  width: 80%;
+  padding: 10%;
+}
+
+
+/* HORNÍ LIŠTA */
+
+.upperline {
+  height: 5%;
+  width: 85%;
+  position: fixed;
+  right: 0;
+  background-color: #84FFFF;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25); 
+}
+
+.ikony {
+  position: absolute !important;
+  right: 1% !important;
+  font-size: 36px !important;
+}
+
