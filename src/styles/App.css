@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Base Application Styles */
 body {
   background: #bfc6c5;
+
 }
 
 /* BODY */
@@ -13,11 +21,6 @@ body {
   left: 15%;
 }
 
-.pole{
-  background-color: #616161 !important;
-  position: relative;
-}
-
 /* LEVÉ MENU */
 
 .menuleftclass {
@@ -28,25 +31,48 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,.25);
 }
 
+/* jednotlivá tlačítka */
 .menupole {
-  width: 70% !important;
-  background-color: #616161 !important;
+  width: 80% !important;
+  height: 60px;
+  background-color: transparent !important;
   border-radius: 5px !important;
-  margin: 5% !important;
-  position: absolute !important;
+  text-align: center !important;
+  left: 10% !important;
+  position: relative !important;
+  margin: 5px !important;
+ 
 }
+
+#klik {
+  color: #84FFFF !important;
+}
+
+#klik:hover {
+  color: #616161 !important;
+  background-color: #84FFFF !important;
+}
+
 
 .logo {
   width: 80%;
   padding: 10%;
 }
 
+.odkaz {
+  position:absolute;
+  left: 27%;
+  bottom: 10px ;
+  color:#FF4081;
+  font-size: 18px;
+  text-decoration: none;
+}
 
 /* HORNÍ LIŠTA */
 
 .upperline {
-  height: 5%;
-  width: 85%;
+  height: 45px;
+  width: 90%;
   position: fixed;
   right: 0;
   background-color: #84FFFF;
@@ -54,8 +80,11 @@ body {
 }
 
 .ikony {
+  right: 5% !important;
+  width: 40px !important;
+  height: 40px !important;
+  top:2px !important;
   position: absolute !important;
-  right: 1% !important;
-  font-size: 36px !important;
+  
 }
 
